@@ -37,28 +37,67 @@
 
 
   </header>
-  <>
-   Фильтр:
-    <form>
-      <legend>Стоимость</legend>
-      <input type="range" id="cost" name="cost" 
-      min="0" max="8820" value="4410" step="10">
-      
-    </form>
-    <form>
-      <fieldset>
-        <legend>Цвет</legend>
-        <input type="checkbox"> Черный  <br>
-        <input type="checkbox"> Белый   <br>
-        <input type="checkbox"> Синий   <br>
-        <input type="checkbox"> Красный <br>
-        <input type="checkbox"> Розовый <br>
-      </fieldset>
-    </form>
-    <form>
-      <input type="radio" name="bluetooth" value="yes"> Есть<Br>
-      <input type="radio" name="bluetooth" value="no"> Нет<Br>
-    </form>
+  <main>
+    <div>
+      Фильтр:
+      <form>
+        <legend>Стоимость</legend>
+        <input type="range" id="cost" name="cost" 
+        min="0" max="8820" value="4410" step="10">
+        
+      </form>
+      <form>
+        <fieldset>
+          <legend>Цвет</legend>
+          <input type="checkbox"> Черный  <br>
+          <input type="checkbox"> Белый   <br>
+          <input type="checkbox"> Синий   <br>
+          <input type="checkbox"> Красный <br>
+          <input type="checkbox"> Розовый <br>
+        </fieldset>
+      </form>
+      <form>
+        <legend><strong>Bluetooth</strong></legend>
+          <input type="radio" name="bluetooth" value="yes"> Есть<Br>
+          <input type="radio" name="bluetooth" value="no"> Нет<Br>
+      </form>
+    </div>
+    <div>
+      Сортировка:
+      <ul>
+        <li>
+          По цене
+        </li>
+        <li>
+          По типу
+        </li>
+        <li>
+          По популярности
+        </li>
+      </ul>
+      <article>
+        <h3>Любительская селфи-палка</h3>
+        <p><img src="/device-monopods/img/amauter selfie-stick.jpg" 
+          alt="Любительская селфи-палка" width="360 height"380></p>
+          <span>500 руб</span>
+        </article>
+      </article>
+      <article>
+        <h3>Профессиональная селфи-палка</h3>
+        в
+        <span>1500 руб</span>
+
+      </article>
+      <article>
+        <h3>Непотопляемая селфи-палка</h3>
+        <span>2500 руб</span>
+
+      </article>
+      <article>
+        <h3>Селфи-палка "Следуй за мной"</h3>
+        <span>4900 руб</span>
+      </article>
+    </div>
 
   </main>
   <footer>
